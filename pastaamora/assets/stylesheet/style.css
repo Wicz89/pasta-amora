@@ -9,16 +9,46 @@
  }
 
  header {
- float: left;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
 }
 
-nav {
+body {
+ font-family: Helvetica, Arial, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav {
+   margin: 7px 0;
+}
+
+header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw; 
+}
+
 
  /* Mobile First Media Queries */
 
@@ -33,4 +63,3 @@ nav {
 
 /* Larger than desktop screen */
 @media (min-width: 120.0rem) { ... }
-
