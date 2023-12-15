@@ -4,13 +4,11 @@
    font-family: Helvetica, Arial, sans-serif;
  }
 
+ 
  header {
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-size: cover;
   background-position: center;
@@ -30,7 +28,7 @@ header a {
     padding: 0;
     box-sizing: border-box;
   }
-  text-decoration: none;
+  text-decoration: rgb(9, 91, 9);
   color:;
 }
 
